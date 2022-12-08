@@ -1,0 +1,42 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+#topNav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+nav li {
+    list-style: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+img {
+    width: 500px;
+}
+
+p {
+    width: 50%;
+
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
